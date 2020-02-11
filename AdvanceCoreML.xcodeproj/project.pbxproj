@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1979A8D9676A4609C31415 /* Pods_AdvanceCoreML_AdvanceCoreMLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A4AC9BBC11E38BEF8DCD7B /* Pods_AdvanceCoreML_AdvanceCoreMLUITests.framework */; };
 		7B8A829123F28C9700C7E9B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A829023F28C9700C7E9B9 /* AppDelegate.swift */; };
 		7B8A829323F28C9700C7E9B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A829223F28C9700C7E9B9 /* SceneDelegate.swift */; };
 		7B8A829523F28C9700C7E9B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A829423F28C9700C7E9B9 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		7B8A829D23F28CAB00C7E9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A829B23F28CAB00C7E9B9 /* LaunchScreen.storyboard */; };
 		7B8A82A823F28CAB00C7E9B9 /* AdvanceCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A82A723F28CAB00C7E9B9 /* AdvanceCoreMLTests.swift */; };
 		7B8A82B323F28CAB00C7E9B9 /* AdvanceCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A82B223F28CAB00C7E9B9 /* AdvanceCoreMLUITests.swift */; };
+		876EBB45566A0CC4F123F9BE /* Pods_AdvanceCoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8B3BA103A700174F1F323 /* Pods_AdvanceCoreML.framework */; };
+		93C89A47331CE181EF997B9E /* Pods_AdvanceCoreMLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45618A6BD74E5CA09BA15E7C /* Pods_AdvanceCoreMLTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4279C527792E30D9A3FB1D2E /* Pods-AdvanceCoreML-AdvanceCoreMLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCoreML-AdvanceCoreMLUITests.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceCoreML-AdvanceCoreMLUITests/Pods-AdvanceCoreML-AdvanceCoreMLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45618A6BD74E5CA09BA15E7C /* Pods_AdvanceCoreMLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceCoreMLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F8B3BA103A700174F1F323 /* Pods_AdvanceCoreML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceCoreML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A4AC9BBC11E38BEF8DCD7B /* Pods_AdvanceCoreML_AdvanceCoreMLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceCoreML_AdvanceCoreMLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6855A2A78F923032CBF8C925 /* Pods-AdvanceCoreML-AdvanceCoreMLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCoreML-AdvanceCoreMLUITests.release.xcconfig"; path = "Target Support Files/Pods-AdvanceCoreML-AdvanceCoreMLUITests/Pods-AdvanceCoreML-AdvanceCoreMLUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7B8A828D23F28C9600C7E9B9 /* AdvanceCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8A829023F28C9700C7E9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B8A829223F28C9700C7E9B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		7B8A82AE23F28CAB00C7E9B9 /* AdvanceCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8A82B223F28CAB00C7E9B9 /* AdvanceCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCoreMLUITests.swift; sourceTree = "<group>"; };
 		7B8A82B423F28CAB00C7E9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34C5C751391E8BE095F5B31 /* Pods-AdvanceCoreMLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCoreMLTests.release.xcconfig"; path = "Target Support Files/Pods-AdvanceCoreMLTests/Pods-AdvanceCoreMLTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB15BE60155AF8E71223DF63 /* Pods-AdvanceCoreML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCoreML.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceCoreML/Pods-AdvanceCoreML.debug.xcconfig"; sourceTree = "<group>"; };
+		F22EE6D01B92B24182E5AC79 /* Pods-AdvanceCoreMLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCoreMLTests.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceCoreMLTests/Pods-AdvanceCoreMLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F582DE5167370A736F0E077E /* Pods-AdvanceCoreML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceCoreML.release.xcconfig"; path = "Target Support Files/Pods-AdvanceCoreML/Pods-AdvanceCoreML.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876EBB45566A0CC4F123F9BE /* Pods_AdvanceCoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C89A47331CE181EF997B9E /* Pods_AdvanceCoreMLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1979A8D9676A4609C31415 /* Pods_AdvanceCoreML_AdvanceCoreMLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				7B8A82A623F28CAB00C7E9B9 /* AdvanceCoreMLTests */,
 				7B8A82B123F28CAB00C7E9B9 /* AdvanceCoreMLUITests */,
 				7B8A828E23F28C9600C7E9B9 /* Products */,
+				E24A0F1D33F11CEF6311FC65 /* Pods */,
+				A594BC16741E829287763416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = AdvanceCoreMLUITests;
 			sourceTree = "<group>";
 		};
+		A594BC16741E829287763416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F8B3BA103A700174F1F323 /* Pods_AdvanceCoreML.framework */,
+				67A4AC9BBC11E38BEF8DCD7B /* Pods_AdvanceCoreML_AdvanceCoreMLUITests.framework */,
+				45618A6BD74E5CA09BA15E7C /* Pods_AdvanceCoreMLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E24A0F1D33F11CEF6311FC65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB15BE60155AF8E71223DF63 /* Pods-AdvanceCoreML.debug.xcconfig */,
+				F582DE5167370A736F0E077E /* Pods-AdvanceCoreML.release.xcconfig */,
+				4279C527792E30D9A3FB1D2E /* Pods-AdvanceCoreML-AdvanceCoreMLUITests.debug.xcconfig */,
+				6855A2A78F923032CBF8C925 /* Pods-AdvanceCoreML-AdvanceCoreMLUITests.release.xcconfig */,
+				F22EE6D01B92B24182E5AC79 /* Pods-AdvanceCoreMLTests.debug.xcconfig */,
+				C34C5C751391E8BE095F5B31 /* Pods-AdvanceCoreMLTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B8A82B723F28CAB00C7E9B9 /* Build configuration list for PBXNativeTarget "AdvanceCoreML" */;
 			buildPhases = (
+				1DE7362CFA2FDEA5583BD1C5 /* [CP] Check Pods Manifest.lock */,
 				7B8A828923F28C9600C7E9B9 /* Sources */,
 				7B8A828A23F28C9600C7E9B9 /* Frameworks */,
 				7B8A828B23F28C9600C7E9B9 /* Resources */,
+				FC647E28EBF30D8D145F0F71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B8A82BA23F28CAB00C7E9B9 /* Build configuration list for PBXNativeTarget "AdvanceCoreMLTests" */;
 			buildPhases = (
+				5AF1017C11129211DF99C186 /* [CP] Check Pods Manifest.lock */,
 				7B8A829F23F28CAB00C7E9B9 /* Sources */,
 				7B8A82A023F28CAB00C7E9B9 /* Frameworks */,
 				7B8A82A123F28CAB00C7E9B9 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B8A82BD23F28CAB00C7E9B9 /* Build configuration list for PBXNativeTarget "AdvanceCoreMLUITests" */;
 			buildPhases = (
+				7A044460646FF609C75031DB /* [CP] Check Pods Manifest.lock */,
 				7B8A82AA23F28CAB00C7E9B9 /* Sources */,
 				7B8A82AB23F28CAB00C7E9B9 /* Frameworks */,
 				7B8A82AC23F28CAB00C7E9B9 /* Resources */,
+				8A17BCB2B644C93E3D966831 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE7362CFA2FDEA5583BD1C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceCoreML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF1017C11129211DF99C186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceCoreMLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A044460646FF609C75031DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceCoreML-AdvanceCoreMLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A17BCB2B644C93E3D966831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceCoreML-AdvanceCoreMLUITests/Pods-AdvanceCoreML-AdvanceCoreMLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceCoreML-AdvanceCoreMLUITests/Pods-AdvanceCoreML-AdvanceCoreMLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdvanceCoreML-AdvanceCoreMLUITests/Pods-AdvanceCoreML-AdvanceCoreMLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC647E28EBF30D8D145F0F71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceCoreML/Pods-AdvanceCoreML-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceCoreML/Pods-AdvanceCoreML-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdvanceCoreML/Pods-AdvanceCoreML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B8A828923F28C9600C7E9B9 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		7B8A82B823F28CAB00C7E9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB15BE60155AF8E71223DF63 /* Pods-AdvanceCoreML.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		7B8A82B923F28CAB00C7E9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F582DE5167370A736F0E077E /* Pods-AdvanceCoreML.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		7B8A82BB23F28CAB00C7E9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22EE6D01B92B24182E5AC79 /* Pods-AdvanceCoreMLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		7B8A82BC23F28CAB00C7E9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34C5C751391E8BE095F5B31 /* Pods-AdvanceCoreMLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		7B8A82BE23F28CAB00C7E9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4279C527792E30D9A3FB1D2E /* Pods-AdvanceCoreML-AdvanceCoreMLUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		7B8A82BF23F28CAB00C7E9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6855A2A78F923032CBF8C925 /* Pods-AdvanceCoreML-AdvanceCoreMLUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

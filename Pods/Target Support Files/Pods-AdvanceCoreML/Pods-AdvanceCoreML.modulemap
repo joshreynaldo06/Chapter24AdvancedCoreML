@@ -1,0 +1,6 @@
+framework module Pods_AdvanceCoreML {
+  umbrella header "Pods-AdvanceCoreML-umbrella.h"
+
+  export *
+  module * { export * }
+}
